@@ -51,6 +51,7 @@ public class PgyerModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void download(){
         if (TextUtils.isEmpty(appBean.getVersionCode())){
+            Toast.make()
             return;
         }
         UpdateManagerListener.startDownloadTask(getCurrentActivity(),appBean.getDownloadURL());

@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\RN\\libs\\react-native-pgyer',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\lenovo\AppData\Roaming\npm-cache\react-native-pgyer\1.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\lenovo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 verbose tar pack [ 'C:\\Users\\lenovo\\AppData\\Roaming\\npm-cache\\react-native-pgyer\\1.0.1\\package.tgz',
+10 verbose tar pack   'D:\\RN\\libs\\react-native-pgyer' ]
+11 verbose tarball C:\Users\lenovo\AppData\Roaming\npm-cache\react-native-pgyer\1.0.1\package.tgz
+12 verbose folder D:\RN\libs\react-native-pgyer
+13 info prepublish react-native-pgyer@1.0.1
+14 verbose addLocalTarball adding from inside cache C:\Users\lenovo\AppData\Roaming\npm-cache\react-native-pgyer\1.0.1\package.tgz
+15 verbose correctMkdir C:\Users\lenovo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+16 silly cache afterAdd react-native-pgyer@1.0.1
+17 verbose afterAdd C:\Users\lenovo\AppData\Roaming\npm-cache\react-native-pgyer\1.0.1\package\package.json not in flight; writing
+18 verbose correctMkdir C:\Users\lenovo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 verbose afterAdd C:\Users\lenovo\AppData\Roaming\npm-cache\react-native-pgyer\1.0.1\package\package.json written
+20 silly publish { name: 'react-native-pgyer',
+20 silly publish   version: '1.0.1',
+20 silly publish   description: 'react-native-pgyer',
+20 silly publish   main: 'index.js',
+20 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git+ssh://git@github.com/xierangh/react-native-pgyer.git' },
+20 silly publish   keywords: [ 'react-native-pgyer' ],
+20 silly publish   author: { name: 'yanshisan' },
+20 silly publish   license: 'MIT',
+20 silly publish   gitHead: 'e2e1775e65794f625747acb82a00cfa4877de54d',
+20 silly publish   bugs: { url: 'https://github.com/xierangh/react-native-pgyer/issues' },
+20 silly publish   readme: 'ERROR: No README data found!',
+20 silly publish   homepage: 'https://github.com/xierangh/react-native-pgyer#readme',
+20 silly publish   _id: 'react-native-pgyer@1.0.1',
+20 silly publish   _shasum: '7109d7c3de11e568e0998f70d1258cb888028353',
+20 silly publish   _from: '.' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name react-native-pgyer
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry http://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'react-native-pgyer',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'react-native-pgyer',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri http://registry.npmjs.org/react-native-pgyer
+27 verbose publish registryBase http://registry.npmjs.org/
+28 silly publish uploading C:\Users\lenovo\AppData\Roaming\npm-cache\react-native-pgyer\1.0.1\package.tgz
+29 verbose request uri http://registry.npmjs.org/react-native-pgyer
+30 verbose request sending authorization for write operation
+31 info attempt registry request try #1 at 10:50:23
+32 verbose request using bearer token for auth
+33 verbose request id 59f2ad6b92eaac19
+34 http request PUT http://registry.npmjs.org/react-native-pgyer
+35 http 403 http://registry.npmjs.org/react-native-pgyer
+36 verbose headers { 'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '95',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Wed, 29 Mar 2017 02:50:26 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-nrt6121-NRT',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1490755825.240023,VS0,VE1303',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 verbose request invalidating C:\Users\lenovo\AppData\Roaming\npm-cache\registry.npmjs.org\react-native-pgyer on PUT
+38 error publish Failed PUT 403
+39 verbose stack Error: "You cannot publish over the previously published version 1.0.1." : react-native-pgyer
+39 verbose stack     at makeError (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+39 verbose stack     at CachingRegistryClient.<anonymous> (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+39 verbose stack     at Request._callback (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+39 verbose stack     at Request.self.callback (D:\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+39 verbose stack     at emitTwo (events.js:87:13)
+39 verbose stack     at Request.emit (events.js:172:7)
+39 verbose stack     at Request.<anonymous> (D:\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+39 verbose stack     at emitOne (events.js:82:20)
+39 verbose stack     at Request.emit (events.js:169:7)
+39 verbose stack     at IncomingMessage.<anonymous> (D:\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+40 verbose statusCode 403
+41 verbose pkgid react-native-pgyer
+42 verbose cwd D:\RN\libs\react-native-pgyer
+43 error Windows_NT 6.1.7601
+44 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "."
+45 error node v4.5.0
+46 error npm  v2.15.9
+47 error code E403
+48 error "You cannot publish over the previously published version 1.0.1." : react-native-pgyer
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]
