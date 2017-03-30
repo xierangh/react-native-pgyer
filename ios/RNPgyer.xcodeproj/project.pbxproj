@@ -16,6 +16,7 @@
 		68540FD11E8B856B001AE003 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FD01E8B856B001AE003 /* OpenGLES.framework */; };
 		68540FD31E8B8573001AE003 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FD21E8B8573001AE003 /* AVFoundation.framework */; };
 		68540FD51E8B857C001AE003 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FD41E8B857C001AE003 /* SystemConfiguration.framework */; };
+		68A24F221E8CF197009D4502 /* PgyUpdate in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A24F211E8CF197009D4502 /* PgyUpdate */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		68540FD01E8B856B001AE003 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		68540FD21E8B8573001AE003 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		68540FD41E8B857C001AE003 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68A24F211E8CF197009D4502 /* PgyUpdate */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = PgyUpdate; path = PgyUpdate.framework/PgyUpdate; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68A24F221E8CF197009D4502 /* PgyUpdate in Frameworks */,
 				68540FD51E8B857C001AE003 /* SystemConfiguration.framework in Frameworks */,
 				68540FD31E8B8573001AE003 /* AVFoundation.framework in Frameworks */,
 				68540FD11E8B856B001AE003 /* OpenGLES.framework in Frameworks */,
@@ -92,6 +95,7 @@
 		68540FC91E8B8545001AE003 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				68A24F211E8CF197009D4502 /* PgyUpdate */,
 				68540FD41E8B857C001AE003 /* SystemConfiguration.framework */,
 				68540FD21E8B8573001AE003 /* AVFoundation.framework */,
 				68540FD01E8B856B001AE003 /* OpenGLES.framework */,
@@ -267,6 +271,10 @@
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PgyUpdate.framework",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -285,6 +293,10 @@
 					"$(SRCROOT)/../react-native/React/**",
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PgyUpdate.framework",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

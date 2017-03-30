@@ -10,7 +10,7 @@
 #import <React/RCTBridgeModule.h>
 #import <React/RCTLog.h>
 
-@interface RNPgyer : NSObject <RCTBridgeModule>
+@interface PgyerModule : NSObject <RCTBridgeModule>
 
 
 @end

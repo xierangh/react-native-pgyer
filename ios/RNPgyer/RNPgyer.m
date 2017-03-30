@@ -9,37 +9,29 @@
 #import "RNPgyer.h"
 #import <PgyUpdate/PgyUpdateManager.h>
 
-@implementation RNPgyer
+@implementation PgyerModule
 
-NSDictionary* result;
-
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [[PgyUpdateManager sharedPgyManager] startManagerWithAppId:@"64913afcd997d3485804cace997ddf32"];
-    }
-    return self;
-}
 
 RCT_EXPORT_MODULE();
-RCT_EXPORT_METHOD(updateVersion(){
+RCT_EXPORT_METHOD(bindAppId:(NSString* )appId){
+    NSLog(@"PgyUpdateManager init");
     
-    [[PgyUpdateManager sharedPgyManager] checkUpdateWithDelegete:self selector:@selector(updateMethod:)];
-})
-RCT_EXPORT_METHOD(download(){
-    [[UIApplication shareApplication] openURL:[NSURL URLWithString:response[@"downloadURL"]]];
-    [[PgyUpdateManager sharedPgyManager] updateLocalBuildNumber];
-})
-RCT_EXPORT_METHOD((NSString *)getVersion(){
-    if(self.result == nil){
-        return "";
-    }
-    return self.result[@"versionCode"]
-})
+    [[PgyUpdateManager sharedPgyManager] startManagerWithAppId:appId];
+    
+}
 
--(void)updateMethod((NSDictionary* result)){
-    self.result = result;
+RCT_EXPORT_METHOD(updateVersion){
+    NSLog(@"updateVersion");
+    
+    [[PgyUpdateManager sharedPgyManager] checkUpdate];
+    
+}
+RCT_EXPORT_METHOD(updateVersionmore){
+    [[PgyUpdateManager sharedPgyManager] checkUpdateWithDelegete:self selector:@selector(updateMethod:)];
+}
+
+-(void)updateMethod:(NSDictionary* )result{
+    NSLog(@"result %@",result);
 }
 
 @end
