@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68540FC01E8B5FEC001AE003 /* RNPgyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68540FBF1E8B5FEC001AE003 /* RNPgyer.m */; };
+		68540FC11E8B5FEC001AE003 /* RNPgyer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68540FBE1E8B5FEC001AE003 /* RNPgyer.h */; };
+		68540FC81E8B84D5001AE003 /* PgyUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FC71E8B84D5001AE003 /* PgyUpdate.framework */; };
+		68540FCB1E8B8545001AE003 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FCA1E8B8545001AE003 /* CoreMotion.framework */; };
+		68540FCD1E8B854E001AE003 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FCC1E8B854E001AE003 /* CoreTelephony.framework */; };
+		68540FCF1E8B8561001AE003 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FCE1E8B8561001AE003 /* AudioToolbox.framework */; };
+		68540FD11E8B856B001AE003 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FD01E8B856B001AE003 /* OpenGLES.framework */; };
+		68540FD31E8B8573001AE003 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FD21E8B8573001AE003 /* AVFoundation.framework */; };
+		68540FD51E8B857C001AE003 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68540FD41E8B857C001AE003 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68540FB91E8B5FEC001AE003 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				68540FC11E8B5FEC001AE003 /* RNPgyer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68540FBB1E8B5FEC001AE003 /* libRNPgyer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPgyer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68540FBE1E8B5FEC001AE003 /* RNPgyer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNPgyer.h; sourceTree = "<group>"; };
+		68540FBF1E8B5FEC001AE003 /* RNPgyer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPgyer.m; sourceTree = "<group>"; };
+		68540FC71E8B84D5001AE003 /* PgyUpdate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PgyUpdate.framework; sourceTree = "<group>"; };
+		68540FCA1E8B8545001AE003 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		68540FCC1E8B854E001AE003 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		68540FCE1E8B8561001AE003 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		68540FD01E8B856B001AE003 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		68540FD21E8B8573001AE003 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		68540FD41E8B857C001AE003 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68540FB81E8B5FEC001AE003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68540FD51E8B857C001AE003 /* SystemConfiguration.framework in Frameworks */,
+				68540FD31E8B8573001AE003 /* AVFoundation.framework in Frameworks */,
+				68540FD11E8B856B001AE003 /* OpenGLES.framework in Frameworks */,
+				68540FCF1E8B8561001AE003 /* AudioToolbox.framework in Frameworks */,
+				68540FCD1E8B854E001AE003 /* CoreTelephony.framework in Frameworks */,
+				68540FCB1E8B8545001AE003 /* CoreMotion.framework in Frameworks */,
+				68540FC81E8B84D5001AE003 /* PgyUpdate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68540FB21E8B5FEC001AE003 = {
+			isa = PBXGroup;
+			children = (
+				68540FBD1E8B5FEC001AE003 /* RNPgyer */,
+				68540FBC1E8B5FEC001AE003 /* Products */,
+				68540FC71E8B84D5001AE003 /* PgyUpdate.framework */,
+				68540FC91E8B8545001AE003 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68540FBC1E8B5FEC001AE003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68540FBB1E8B5FEC001AE003 /* libRNPgyer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68540FBD1E8B5FEC001AE003 /* RNPgyer */ = {
+			isa = PBXGroup;
+			children = (
+				68540FBE1E8B5FEC001AE003 /* RNPgyer.h */,
+				68540FBF1E8B5FEC001AE003 /* RNPgyer.m */,
+			);
+			path = RNPgyer;
+			sourceTree = "<group>";
+		};
+		68540FC91E8B8545001AE003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68540FD41E8B857C001AE003 /* SystemConfiguration.framework */,
+				68540FD21E8B8573001AE003 /* AVFoundation.framework */,
+				68540FD01E8B856B001AE003 /* OpenGLES.framework */,
+				68540FCE1E8B8561001AE003 /* AudioToolbox.framework */,
+				68540FCC1E8B854E001AE003 /* CoreTelephony.framework */,
+				68540FCA1E8B8545001AE003 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68540FBA1E8B5FEC001AE003 /* RNPgyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68540FC41E8B5FEC001AE003 /* Build configuration list for PBXNativeTarget "RNPgyer" */;
+			buildPhases = (
+				68540FB71E8B5FEC001AE003 /* Sources */,
+				68540FB81E8B5FEC001AE003 /* Frameworks */,
+				68540FB91E8B5FEC001AE003 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNPgyer;
+			productName = RNPgyer;
+			productReference = 68540FBB1E8B5FEC001AE003 /* libRNPgyer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68540FB31E8B5FEC001AE003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yanshisan;
+				TargetAttributes = {
+					68540FBA1E8B5FEC001AE003 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68540FB61E8B5FEC001AE003 /* Build configuration list for PBXProject "RNPgyer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68540FB21E8B5FEC001AE003;
+			productRefGroup = 68540FBC1E8B5FEC001AE003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68540FBA1E8B5FEC001AE003 /* RNPgyer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68540FB71E8B5FEC001AE003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68540FC01E8B5FEC001AE003 /* RNPgyer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68540FC21E8B5FEC001AE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68540FC31E8B5FEC001AE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68540FC51E8B5FEC001AE003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68540FC61E8B5FEC001AE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68540FB61E8B5FEC001AE003 /* Build configuration list for PBXProject "RNPgyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68540FC21E8B5FEC001AE003 /* Debug */,
+				68540FC31E8B5FEC001AE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68540FC41E8B5FEC001AE003 /* Build configuration list for PBXNativeTarget "RNPgyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68540FC51E8B5FEC001AE003 /* Debug */,
+				68540FC61E8B5FEC001AE003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68540FB31E8B5FEC001AE003 /* Project object */;
+}

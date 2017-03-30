@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "16CE14A2D81CCE323D476004724594AEF6B38C0A" : 9223372036854775807,
+    "B77A59DC183F665F623E6696177FC925528FFC74" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE3AA4E3-DBB7-417E-9F3D-4C7EFF1DD25D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "16CE14A2D81CCE323D476004724594AEF6B38C0A" : "..\/..\/react-native",
+    "B77A59DC183F665F623E6696177FC925528FFC74" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNPgyer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RNPgyer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/facebook\/react-native.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "16CE14A2D81CCE323D476004724594AEF6B38C0A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xierangh\/react-native-pgyer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B77A59DC183F665F623E6696177FC925528FFC74"
+    }
+  ]
+}
